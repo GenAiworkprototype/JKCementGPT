@@ -1,0 +1,30 @@
+{"timestamp": "2025-10-26T02:43:07.849603Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-26T02:43:07.850275Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-26T02:43:07.850479Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T02:43:07.859854Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251026_081307_481fe9e8", "temp_dir": "C:\\GenAI Hackathon\\2.0\\data\\session_20251026_081307_481fe9e8", "faiss_dir": "C:\\GenAI Hackathon\\2.0\\faiss_index\\session_20251026_081307_481fe9e8", "sessionized": true, "timestamp": "2025-10-26T02:43:07.861424Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "/GenAI Hackathon/2.0/data/AgenticRAGRedefiningRetrieval-AugmentedGenerationforAdaptiveIntelligence.pdf", "saved_as": "C:\\GenAI Hackathon\\2.0\\data\\session_20251026_081307_481fe9e8\\cb2dac1e.pdf", "timestamp": "2025-10-26T02:43:07.863743Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 10, "timestamp": "2025-10-26T02:43:08.720789Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 225, "chunk_size": 200, "overlap": 20, "timestamp": "2025-10-26T02:43:08.725477Z", "level": "info", "event": "Documents split"}
+{"model": "gemini-embedding-001", "timestamp": "2025-10-26T02:43:08.726253Z", "level": "info", "event": "Loading embedding model"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "C:\\GenAI Hackathon\\2.0\\faiss_index\\session_20251026_081307_481fe9e8", "timestamp": "2025-10-26T02:43:15.960128Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-10-26T02:43:15.960466Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-10-26T02:43:15.961671Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-26T02:43:15.962007Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-26T02:43:15.962303Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T02:43:15.964425Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-26T02:43:15.964747Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251026_081307_481fe9e8", "timestamp": "2025-10-26T02:43:15.974474Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251026_081307_481fe9e8", "timestamp": "2025-10-26T02:43:15.974823Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-10-26T02:43:15.975772Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-26T02:43:15.976089Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-26T02:43:15.976354Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-26T02:43:15.978365Z", "level": "info", "event": "YAML config loaded"}
+{"model": "gemini-embedding-001", "timestamp": "2025-10-26T02:43:15.978649Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251026_081307_481fe9e8", "timestamp": "2025-10-26T02:43:16.004667Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index\\session_20251026_081307_481fe9e8", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251026_081307_481fe9e8", "timestamp": "2025-10-26T02:43:16.005109Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251026_081307_481fe9e8", "user_input": "what is a rag system", "answer_preview": "A RAG (Retrieval-Augmented Generation) system utilizes external knowledge from a retrieval component like a database or search engine. The generation ", "timestamp": "2025-10-26T02:44:36.218141Z", "level": "info", "event": "Chain invoked successfully"}
+{"session_id": "session_20251026_081307_481fe9e8", "user_input": "llm vs rag vs agentic rag", "answer_preview": "I don't know.", "timestamp": "2025-10-26T02:45:38.502631Z", "level": "info", "event": "Chain invoked successfully"}
+{"session_id": "session_20251026_081307_481fe9e8", "user_input": "difference between llm and rag", "answer_preview": "LLMs (large language models) can be enhanced by Retrieval Augmented Generation (RAG). RAG unifies the advantages of retrieval and generation. The gene", "timestamp": "2025-10-26T02:46:27.651685Z", "level": "info", "event": "Chain invoked successfully"}

@@ -1,0 +1,3 @@
+{"timestamp": "2025-10-25T08:20:34.227630Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"missing_keys": ["GOOGLE_API_KEY"], "timestamp": "2025-10-25T08:20:34.228227Z", "level": "error", "event": "Missing required API keys"}
+{"error": "Error in [<unknown>] at line [-1] | Message: Missing API keys", "timestamp": "2025-10-25T08:20:34.228555Z", "level": "error", "event": "Failed to initialize ChatIngestor"}

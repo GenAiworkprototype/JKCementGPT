@@ -1,0 +1,28 @@
+{"timestamp": "2025-10-27T18:07:24.028690Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-27T18:07:24.029702Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-27T18:07:24.030336Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-27T18:07:24.060843Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251027_233724_feaa6362", "temp_dir": "C:\\GenAI Hackathon\\2.0\\data\\session_20251027_233724_feaa6362", "faiss_dir": "C:\\GenAI Hackathon\\2.0\\faiss_index\\session_20251027_233724_feaa6362", "sessionized": true, "timestamp": "2025-10-27T18:07:24.065173Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "AgenticRAGRedefiningRetrieval-AugmentedGenerationforAdaptiveIntelligence.pdf", "saved_as": "C:\\GenAI Hackathon\\2.0\\data\\session_20251027_233724_feaa6362\\c6cccdd9.pdf", "timestamp": "2025-10-27T18:07:24.070520Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 10, "timestamp": "2025-10-27T18:07:25.833856Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 39, "chunk_size": 1000, "overlap": 200, "timestamp": "2025-10-27T18:07:25.837890Z", "level": "info", "event": "Documents split"}
+{"model": "gemini-embedding-001", "timestamp": "2025-10-27T18:07:25.841586Z", "level": "info", "event": "Loading embedding model"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "C:\\GenAI Hackathon\\2.0\\faiss_index\\session_20251027_233724_feaa6362", "timestamp": "2025-10-27T18:07:29.911201Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2025-10-27T18:07:29.911670Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2025-10-27T18:08:17.105393Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-27T18:08:17.105821Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-27T18:08:17.106176Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-27T18:08:17.111429Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2025-10-27T18:08:17.111916Z", "level": "info", "event": "Loading LLM"}
+{"session_id": "session_20251027_233724_feaa6362", "timestamp": "2025-10-27T18:08:17.149448Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "session_20251027_233724_feaa6362", "timestamp": "2025-10-27T18:08:17.150024Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"timestamp": "2025-10-27T18:08:17.152549Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-27T18:08:17.152955Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-27T18:08:17.153220Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-27T18:08:17.158683Z", "level": "info", "event": "YAML config loaded"}
+{"model": "gemini-embedding-001", "timestamp": "2025-10-27T18:08:17.159704Z", "level": "info", "event": "Loading embedding model"}
+{"session_id": "session_20251027_233724_feaa6362", "timestamp": "2025-10-27T18:08:17.223294Z", "level": "info", "event": "LCEL graph built successfully"}
+{"index_path": "faiss_index/session_20251027_233724_feaa6362", "index_name": "index", "search_type": "mmr", "k": 5, "fetch_k": 20, "lambda_mult": 0.5, "session_id": "session_20251027_233724_feaa6362", "timestamp": "2025-10-27T18:08:17.223674Z", "level": "info", "event": "FAISS retriever loaded successfully"}
+{"session_id": "session_20251027_233724_feaa6362", "user_input": "What is feedback loop", "answer_preview": "Agentic RAG contains feedback loop mechanisms for iterative learning. These loops enable the system to evaluate retrieved and generated content with r", "timestamp": "2025-10-27T18:08:20.102587Z", "level": "info", "event": "Chain invoked successfully"}

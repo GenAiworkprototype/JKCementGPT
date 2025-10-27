@@ -1,0 +1,32 @@
+# Core utilities
+python-dotenv==1.1.1
+structlog
+
+# LangChain ecosystem
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.72
+langchain-groq==0.3.6
+langchain-google-genai==2.1.8
+langchain-openai==0.2.10
+google-genai==1.38.0
+
+# Document processing
+docx2txt==0.9
+python-multipart==0.0.20
+
+# Vector stores & embeddings
+faiss-cpu
+sentence-transformers
+
+# API framework
+fastapi==0.115.6
+uvicorn==0.32.1
+Jinja2==3.1.4
+
+# Additional tools
+langsmith
+openai
+pandas
+pypdf
+ipykernel==6.30.0

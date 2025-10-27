@@ -1,0 +1,11 @@
+{"timestamp": "2025-10-25T16:47:16.325560Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2025-10-25T16:47:16.326061Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2025-10-25T16:47:16.326366Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2025-10-25T16:47:16.333827Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20251025_221716_5ff6600e", "temp_dir": "C:\\GenAI Hackathon\\2.0\\data\\session_20251025_221716_5ff6600e", "faiss_dir": "C:\\GenAI Hackathon\\2.0\\faiss_index\\session_20251025_221716_5ff6600e", "sessionized": true, "timestamp": "2025-10-25T16:47:16.335409Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "/GenAI Hackathon/2.0/data/AgenticRAGRedefiningRetrieval-AugmentedGenerationforAdaptiveIntelligence.pdf", "saved_as": "C:\\GenAI Hackathon\\2.0\\data\\session_20251025_221716_5ff6600e\\3b0aa064.pdf", "timestamp": "2025-10-25T16:47:16.337615Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 10, "timestamp": "2025-10-25T16:47:18.166617Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 225, "chunk_size": 200, "overlap": 20, "timestamp": "2025-10-25T16:47:18.170316Z", "level": "info", "event": "Documents split"}
+{"model": "models/multimodalembedding", "timestamp": "2025-10-25T16:47:18.170975Z", "level": "info", "event": "Loading embedding model"}
+{"error": "Error embedding content: 404 models/multimodalembedding is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.", "timestamp": "2025-10-25T16:47:18.672171Z", "level": "warning", "event": "load_or_create failed on first attempt, retrying"}
+{"error": "Error embedding content: 404 models/multimodalembedding is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.", "timestamp": "2025-10-25T16:47:19.196317Z", "level": "error", "event": "Failed to build retriever"}
