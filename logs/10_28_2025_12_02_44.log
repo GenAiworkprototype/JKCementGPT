@@ -1,0 +1,17 @@
+HTTP Request: POST http://testserver/chat "HTTP/1.1 400 Bad Request"
+HTTP Request: POST http://testserver/chat "HTTP/1.1 400 Bad Request"
+HTTP Request: POST http://testserver/chat "HTTP/1.1 200 OK"
+HTTP Request: POST http://testserver/chat "HTTP/1.1 500 Internal Server Error"
+HTTP Request: POST http://testserver/upload "HTTP/1.1 200 OK"
+HTTP Request: POST http://testserver/upload "HTTP/1.1 422 Unprocessable Entity"
+HTTP Request: POST http://testserver/upload "HTTP/1.1 500 Internal Server Error"
+{"session_id": "session_20251028_120245_4dd2fd81", "temp_dir": "C:\\Users\\ssssa\\AppData\\Local\\Temp\\pytest-of-ssssa\\pytest-0\\test_chat_ingestor_resolve_dir0\\data\\session_20251028_120245_4dd2fd81", "faiss_dir": "C:\\Users\\ssssa\\AppData\\Local\\Temp\\pytest-of-ssssa\\pytest-0\\test_chat_ingestor_resolve_dir0\\faiss_index\\session_20251028_120245_4dd2fd81", "sessionized": true, "timestamp": "2025-10-28T06:32:45.354951Z", "level": "info", "event": "ChatIngestor initialized"}
+{"session_id": "session_20251028_120245_889daea3", "temp_dir": "C:\\Users\\ssssa\\AppData\\Local\\Temp\\pytest-of-ssssa\\pytest-0\\test_split_chunks_respect_size0\\data\\session_20251028_120245_889daea3", "faiss_dir": "C:\\Users\\ssssa\\AppData\\Local\\Temp\\pytest-of-ssssa\\pytest-0\\test_split_chunks_respect_size0\\faiss_index\\session_20251028_120245_889daea3", "sessionized": true, "timestamp": "2025-10-28T06:32:45.360171Z", "level": "info", "event": "ChatIngestor initialized"}
+{"chunks": 3, "chunk_size": 500, "overlap": 100, "timestamp": "2025-10-28T06:32:45.361828Z", "level": "info", "event": "Documents split"}
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+`embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+{"session_id": "s1", "timestamp": "2025-10-28T06:32:47.710630Z", "level": "info", "event": "LLM loaded successfully"}
+{"session_id": "s1", "timestamp": "2025-10-28T06:32:47.710885Z", "level": "info", "event": "ConversationalRAG initialized"}
+{"error": "Error in [<unknown>] at line [-1] | Message: RAG chain not initialized. Call load_retriever_from_faiss() before invoke().", "timestamp": "2025-10-28T06:32:47.711031Z", "level": "error", "event": "Failed to invoke ConversationalRAG"}
+{"error": "FAISS index directory not found: faiss_index/does_not_exist", "timestamp": "2025-10-28T06:32:47.712603Z", "level": "error", "event": "Failed to load retriever from FAISS"}
