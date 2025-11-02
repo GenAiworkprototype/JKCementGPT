@@ -4,6 +4,9 @@ FROM python:3.12-slim
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV PIP_NO_CACHE_DIR=1
+ENV PIP_INDEX_URL=https://download.pytorch.org/whl/cpu
+ENV PIP_EXTRA_INDEX_URL=https://pypi.org/simple
 
 # Set workdir
 WORKDIR /app
@@ -33,5 +36,5 @@ RUN mkdir -p /app/static /app/data /app/faiss_index /app/logs
 EXPOSE 8080
 
 # Run FastAPI with uvicorn (single worker - platforms handle horizontal scaling)
-# Note: No --workers flag for Cloud Run/Render - they manage container instances
+# Note: No --workers or --reload flags for production deployment
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
