@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# Environment files (don't copy local .env to container)
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+notebook/
+*.ipynb_checkpoints
+
+# Testing
+test/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# CI/CD
+Jenkinsfile*
+.github/
+
+# Documentation
+README.md
+*.md
+
+# Data (if you have large local data that shouldn't be in the image)
+# Uncomment if needed:
+# data/
+# faiss_index/
